@@ -1,4 +1,9 @@
-//it will have 4 choices every turn 
+//it will have 2-4 choices every turn in the labrynth part of the game which is where you actually move and use items
+//the combat menu where you can fight, run, defend, and use items
+//you will also be able to use items in the labrynth as well
+//progressing through the game will be based on random chance and your current score
+//you will also have stats that will be determined by your base stats and any potions, armor or weapons you use
+//you will be able to exit after you reach a certain score
 //Room data
 int roomCount = 4;
 String [] description = new String[roomCount];
@@ -12,7 +17,7 @@ String [] description =
 
 //Player's data
 int currentRoom = 0;
-@@ -11,11 +16,6 @@ void setup()
+void setup()
   size(900,600);
   textAlign(CENTER);
   textSize(40);
